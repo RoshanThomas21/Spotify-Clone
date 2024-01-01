@@ -1,0 +1,73 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Color of the thumb */
+    border-radius: 6px; /* Radius of the thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #555; /* Color of the track */
+  }
+  
+  /* For Firefox */
+  /* You can use similar styles for Firefox if needed */
+  /* Note: Firefox uses a different set of properties */
+  
+  /* For Microsoft Edge */
+  /* You can use similar styles for Edge if needed */
+  /* Note: Edge also uses a different set of properties */
+  
+  /* For all browsers (fallback) */
+  /* You can use this as a fallback in case the browser doesn't support the above styles */
+  /* Note: This won't work in some older browsers */
+  /* You can customize the colors and styles according to your design */
+  body {
+    scrollbar-color: #333 #555; /* thumb and track color */
+    scrollbar-width: thin; /* width of the scrollbar */
+  }
+  
